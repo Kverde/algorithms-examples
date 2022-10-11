@@ -1,6 +1,10 @@
 import pytest
 
-from examples.case_default_exception import day_of_week1, day_of_week2, day_of_week3, day_of_week4, day_of_week5
+from examples.case_default_exception import day_of_week1
+from examples.case_default_exception import day_of_week2
+from examples.case_default_exception import day_of_week3
+from examples.case_default_exception import day_of_week4
+from examples.case_default_exception import day_of_week5
 
 
 @pytest.mark.parametrize("day_of_week", [day_of_week1, day_of_week2, day_of_week3, day_of_week4, day_of_week5])
