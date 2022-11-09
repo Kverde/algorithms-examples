@@ -2,4 +2,4 @@ init:
 	poetry init
 
 test:
-	pytest tests
+	poetry run pytest tests
